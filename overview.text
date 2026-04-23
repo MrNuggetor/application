@@ -1,0 +1,5 @@
+This script sets up a simple energy system in a Roblox game where players can walk around and click energy nodes that spawn randomly in the map. 
+When a node is clicked, the player gets energy and the node disappears for a short time before coming back in a new spot, so players keep moving instead of just farming one place. 
+Each player has their own stored energy value, and the script also handles small things like energy slowly dropping over time, random bonus gains, and simple milestones when players reach certain amounts.
+The world also keeps itself balanced by making sure enough nodes are always available and occasionally shifting them around to keep things from feeling static.
+Overall it creates a basic but active loop where players explore, collect energy, and slowly progress while the system keeps everything running in the background.
